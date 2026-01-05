@@ -2,7 +2,22 @@
 
 import streamlit as st
 from prediction_helper import predict
+st.markdown(
+    """
+    <style>
+    .block-container {
+        max-width: 95%;
+        padding-top: 2rem;
+    }
 
+    h1 {
+        font-size: 2.2rem !important;
+        white-space: nowrap;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 # Define the page layout
 st.title('Health Insurance Premium Predictor')
 
