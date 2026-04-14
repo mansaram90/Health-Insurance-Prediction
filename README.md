@@ -25,15 +25,10 @@ This project translates those **real-world insurance risk factors** into a **mac
 
 ### Key ML Highlights
 
-* Separate models for **younger vs older applicants** to improve prediction accuracy
 * **Pre-trained models and scalers** loaded using `joblib`
 * Custom **feature preprocessing and encoding**
 * **Risk normalisation logic** based on medical history severity
 
-### Age-Based Model Selection
-
-* Applicants aged **≤ 25** → `model_young`
-* Applicants aged **> 25** → `model_rest`
 
 This mirrors real insurance underwriting strategies where risk behaves differently across age groups.
 The logic is implemented in `prediction_helper.py` 
