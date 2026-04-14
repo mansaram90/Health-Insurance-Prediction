@@ -109,16 +109,7 @@ Implemented in `main.py`
 ✔ Practical **ML feature engineering**
 ✔ Clean separation of **UI, preprocessing, and inference logic**
 ✔ Real-world **deployment mindset**, not just notebook modelling
-✔ Recruiter-ready **end-to-end ML project**
 
----
-
-## 📌 Future Improvements
-
-* Add explainability (feature impact per prediction)
-* Store prediction history
-* Improve UI with charts and risk bands
-* Retrain with larger real-world datasets
 
 ---
 
