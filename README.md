@@ -83,7 +83,7 @@ Implemented in `main.py`
 │   └── Final prediction logic
 │
 ├── artifacts/
-│   ├── model_young.joblib
+│
 │   ├── model_rest.joblib
 │   ├── scaler_young.joblib
 │   └── scaler_rest.joblib
